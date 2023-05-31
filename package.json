@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/girryarohan/netflix-reactts"
   },
-  "homepage": "https://girryarohan.github.io/netflix-reactts/",
+  "homepage": "https://netflix-reactts.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
