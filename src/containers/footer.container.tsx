@@ -1,6 +1,5 @@
-import React from 'react';
-import { Footer } from '../components';
-
+import React from "react";
+import { Footer } from "../components";
 
 const FooterContainer = () => {
   return (
@@ -42,10 +41,16 @@ const FooterContainer = () => {
 
       <Footer.Break />
 
-      <Footer.Text>Netflix United Kingdom</Footer.Text>
+      <Footer.Text>Netflix India</Footer.Text>
+
+      <Footer.Link href="https://rostudio.in/">
+        <>
+          Designed and Developed By Rohan Arote :
+          <span style={{ color: "red" }}> roStudio.in</span>
+        </>
+      </Footer.Link>
     </Footer>
   );
-}
-
+};
 
 export default FooterContainer;

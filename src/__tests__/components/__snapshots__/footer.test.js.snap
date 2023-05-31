@@ -140,7 +140,7 @@ exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
   <p
     class="footerstyle__Text-sc-1vtsvu2-5 gUbmxE"
   >
-    Netflix United Kingdom
+    Netflix India
   </p>
 </div>
 `;

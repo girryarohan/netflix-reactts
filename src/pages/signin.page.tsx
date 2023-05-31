@@ -8,7 +8,7 @@ import { RouteConstants } from "../types/routes.type";
 const SignIn = () => {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
-  const GlobalUrl: string = process.env.PUBLIC_URL.toString();
+  //const GlobalUrl: string = process.env.PUBLIC_URL.toString();
 
   const [emailAddress, setEmailAddress] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -69,8 +69,7 @@ const SignIn = () => {
           </Form.Base>
 
           <Form.Text>
-            New to Netflix?{" "}
-            <Form.Link to={`${GlobalUrl}/signup`}>Sign up now.</Form.Link>
+            New to Netflix? <Form.Link to={`/signup`}>Sign up now.</Form.Link>
           </Form.Text>
           <Form.TextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a
