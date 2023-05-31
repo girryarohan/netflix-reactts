@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes.helper";
 import { Home, Browse, SignIn, SignUp } from "./pages";
 import { RouteConstants } from "./types/routes.type";
